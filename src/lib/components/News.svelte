@@ -47,10 +47,10 @@
               <h3 class="text-gray-800 text-lg">{entry.title}</h3>
               <p class="text-gray-700">{entry.body}</p>
             </article>
-            <footer class="text-gray-600 flex justify-between items-center">
-              <Anchor href={entry.url} size={AnchorSize.Small}>Read more</Anchor
-              >
-              <div class="flex space-x-4 items-center">
+            <footer class="text-gray-600 flex flex-col md:flex-row items-start md:items-center justify-between">
+                <Anchor class="text-left" href={entry.url} size={AnchorSize.Small}>Read more</Anchor
+                >
+              <div class="flex space-x-4 items-center md:justify-end justify-between md:w-max w-full">
                 <time class="text-sm" datetime={entry.date.toISOString()}
                   >{entry.date.toDateString()}</time
                 >

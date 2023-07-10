@@ -21,7 +21,7 @@
           <li>
             <Anchor
               href="https://discord.com/invite/qJgv2p9Ebf"
-              class="bg-discord-200! hover:bg-discord-400!"
+              class="text-discord-200 hover:text-discord-400 mb-0"
               variant={AnchorVariant.Custom}
               size={AnchorSize.Small}
               icon={Discord}>Discord</Anchor
