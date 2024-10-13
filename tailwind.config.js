@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{jsx,tsx,html}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: ['Wix Madefor Text', 'sans'],
+        mono: ['Fira Code', 'monospace']
+      }
+    },
   },
   plugins: [],
 }
