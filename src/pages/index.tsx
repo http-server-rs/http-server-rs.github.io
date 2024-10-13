@@ -70,7 +70,7 @@ function Testimonials() {
               <figure className="h-[256px]">
                 <img
                   className="h-full"
-                  src="/images/korben.png"
+                  src="/img/korben.png"
                   alt="Korben.info Logo"
                 />
               </figure>

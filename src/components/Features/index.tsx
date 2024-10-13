@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Protected Access',
-    Svg: require('@site/static/icons/folders.svg').default,
+    Svg: require('@site/static/icons/key.svg').default,
     description: (
       <>
         Use authentication to protect access to your files.
@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Proxy Requests',
-    Svg: require('@site/static/icons/gear.svg').default,
+    Svg: require('@site/static/icons/tower.svg').default,
     description: (
       <>
         Use the configuration file to proxy requests to another server.
@@ -52,7 +52,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Performant',
-    Svg: require('@site/static/icons/lock.svg').default,
+    Svg: require('@site/static/icons/performance.svg').default,
     description: (
       <>
         Written in Rust, the HTTP Server is fast and memory efficient.
