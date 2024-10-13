@@ -64,12 +64,12 @@ const FeatureList: FeatureItem[] = [
 function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div
-      className="h-full relative flex flex-col items-center p-6 bg-white rounded shadow-xl w-80 "
+      className="h-full relative flex flex-col items-center p-6 bg-white rounded shadow-xl"
     >
       <figure
         className="bg-blue-600 rounded-full flex justify-center items-center w-16 h-16 mb-4"
       >
-        <Svg className='text-white w-8' role="img" />
+        <Svg className='text-white size-10 p-1' role="img" />
       </figure>
       <h4 className="text-xl font-semibold mb-1">
         {title}
