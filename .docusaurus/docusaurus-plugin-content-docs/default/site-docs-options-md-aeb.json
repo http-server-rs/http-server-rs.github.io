@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Installation",
-    "permalink": "/docs/installation"
+    "title": "Configuration",
+    "permalink": "/docs/configuration"
   },
   "next": {
     "title": "Reference",

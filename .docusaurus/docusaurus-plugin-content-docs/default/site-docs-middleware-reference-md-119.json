@@ -1,14 +1,14 @@
 {
-  "id": "reference",
+  "id": "middleware/reference",
   "title": "Reference",
   "description": "Reference HTTP Server",
-  "source": "@site/docs/reference.md",
-  "sourceDirName": ".",
-  "slug": "/reference",
-  "permalink": "/docs/reference",
+  "source": "@site/docs/middleware/reference.md",
+  "sourceDirName": "middleware",
+  "slug": "/middleware/reference",
+  "permalink": "/docs/middleware/reference",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference.md",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/middleware/reference.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 10,
@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Middleware",
-    "permalink": "/docs/middleware/"
+    "title": "Proxy",
+    "permalink": "/docs/middleware/proxy"
   },
   "next": {
     "title": "Request Handlers",

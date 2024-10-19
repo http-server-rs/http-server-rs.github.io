@@ -1,0 +1,29 @@
+{
+  "id": "middleware/cors",
+  "title": "CORS",
+  "description": "Installation HTTP Server",
+  "source": "@site/docs/middleware/cors.md",
+  "sourceDirName": "middleware",
+  "slug": "/middleware/cors",
+  "permalink": "/docs/middleware/cors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/middleware/cors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "CORS",
+    "description": "Installation HTTP Server",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "TLS (HTTPS)",
+    "permalink": "/docs/middleware/tls"
+  },
+  "next": {
+    "title": "Basic Authentication",
+    "permalink": "/docs/middleware/basic-authentication"
+  }
+}

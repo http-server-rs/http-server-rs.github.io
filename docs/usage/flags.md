@@ -1,7 +1,7 @@
 ---
 title: Flags
 description: Flags HTTP Server
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 # Flags

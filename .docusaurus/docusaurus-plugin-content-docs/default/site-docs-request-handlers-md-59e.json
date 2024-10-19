@@ -19,11 +19,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Reference",
-    "permalink": "/docs/reference"
-  },
-  "next": {
-    "title": "Usage",
-    "permalink": "/docs/usage"
+    "title": "Proxy",
+    "permalink": "/docs/middleware/proxy"
   }
 }

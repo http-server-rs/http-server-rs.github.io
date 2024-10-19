@@ -108,36 +108,31 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
     path: '/search',
     component: ComponentCreator('/search', '822'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '7e9'),
+    component: ComponentCreator('/docs', '192'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '25d'),
+        component: ComponentCreator('/docs', '7ad'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'e5a'),
+            component: ComponentCreator('/docs', 'eb2'),
             routes: [
               {
-                path: '/docs/configuration',
-                component: ComponentCreator('/docs/configuration', 'e8e'),
+                path: '/docs/category/middleware',
+                component: ComponentCreator('/docs/category/middleware', '24d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/flags',
-                component: ComponentCreator('/docs/flags', 'cae'),
+                path: '/docs/configuration',
+                component: ComponentCreator('/docs/configuration', 'e8e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -148,14 +143,32 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/options',
-                component: ComponentCreator('/docs/options', 'bcd'),
+                path: '/docs/middleware/basic-authentication',
+                component: ComponentCreator('/docs/middleware/basic-authentication', 'd77'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/reference',
-                component: ComponentCreator('/docs/reference', '7be'),
+                path: '/docs/middleware/compression',
+                component: ComponentCreator('/docs/middleware/compression', '3fc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/middleware/cors',
+                component: ComponentCreator('/docs/middleware/cors', '43b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/middleware/proxy',
+                component: ComponentCreator('/docs/middleware/proxy', '6b4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/middleware/tls',
+                component: ComponentCreator('/docs/middleware/tls', '484'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -166,8 +179,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/usage',
-                component: ComponentCreator('/docs/usage', 'f66'),
+                path: '/docs/usage/flags',
+                component: ComponentCreator('/docs/usage/flags', 'b20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/usage/options',
+                component: ComponentCreator('/docs/usage/options', 'fc7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

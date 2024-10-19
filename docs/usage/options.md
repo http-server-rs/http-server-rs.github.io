@@ -1,7 +1,7 @@
 ---
 title: Options
 description: Options HTTP Server
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # Options

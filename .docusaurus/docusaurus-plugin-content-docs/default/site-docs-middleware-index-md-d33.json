@@ -1,0 +1,24 @@
+{
+  "id": "middleware/index",
+  "title": "Middleware",
+  "description": "The following are some relevant details on features supported by this HTTP Server",
+  "source": "@site/docs/middleware/index.md",
+  "sourceDirName": "middleware",
+  "slug": "/middleware/",
+  "permalink": "/docs/middleware/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/middleware/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Options",
+    "permalink": "/docs/usage/options"
+  },
+  "next": {
+    "title": "Compression",
+    "permalink": "/docs/middleware/compression"
+  }
+}

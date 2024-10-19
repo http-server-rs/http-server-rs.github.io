@@ -19,11 +19,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Configuration",
-    "permalink": "/docs/configuration"
+    "title": "Usage",
+    "permalink": "/docs/usage"
   },
   "next": {
-    "title": "Installation",
-    "permalink": "/docs/installation"
+    "title": "Options",
+    "permalink": "/docs/options"
   }
 }

@@ -8,16 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "configuration",
+          "mainDocId": "installation",
           "docs": [
             {
               "id": "configuration",
               "path": "/docs/configuration",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "flags",
-              "path": "/docs/flags",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -26,13 +21,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "options",
-              "path": "/docs/options",
+              "id": "middleware/basic-authentication",
+              "path": "/docs/middleware/basic-authentication",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "reference",
-              "path": "/docs/reference",
+              "id": "middleware/compression",
+              "path": "/docs/middleware/compression",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "middleware/cors",
+              "path": "/docs/middleware/cors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "middleware/proxy",
+              "path": "/docs/middleware/proxy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "middleware/tls",
+              "path": "/docs/middleware/tls",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -41,8 +51,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "usage",
-              "path": "/docs/usage",
+              "id": "usage/flags",
+              "path": "/docs/usage/flags",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "usage/options",
+              "path": "/docs/usage/options",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/middleware",
+              "path": "/docs/category/middleware",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -50,8 +70,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/configuration",
-                "label": "configuration"
+                "path": "/docs/installation",
+                "label": "installation"
               }
             }
           }
