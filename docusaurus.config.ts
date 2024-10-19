@@ -63,7 +63,15 @@ const config: Config = {
     ],
   ],
 
-  plugins: [tailwindPlugin],
+  plugins: [
+    tailwindPlugin,
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true,
+      }),
+    ],
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'icons/logo.svg',
