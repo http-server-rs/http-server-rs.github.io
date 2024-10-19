@@ -50,7 +50,13 @@ export default {
     ]
   ],
   "plugins": [
-    null
+    null,
+    [
+      "/home/dalejorod/github.com/http-server-rs.github.io/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      {
+        "hashed": true
+      }
+    ]
   ],
   "themeConfig": {
     "image": "icons/logo.svg",
