@@ -38,7 +38,7 @@ function Hero() {
                 >Download</a>
                 <a
                   className="w-full bg-gray-900 mb-4 text-white sm:w-auto sm:mb-0 inline-flex items-center justify-center rounded-md py-2 px-6"
-                  href="/docs/intro"
+                  href="/docs/installation"
                 >Documentation</a>
               </div>
             </div>

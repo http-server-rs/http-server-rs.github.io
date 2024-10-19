@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Quickstart",
-  "description": "Getting started with Stateful Dataflows",
+  "title": "Installation",
+  "description": "Installation HTTP Server",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -13,13 +13,9 @@
   "version": "current",
   "sidebarPosition": 10,
   "frontMatter": {
-    "title": "Quickstart",
-    "description": "Getting started with Stateful Dataflows",
+    "title": "Installation",
+    "description": "Installation HTTP Server",
     "sidebar_position": 10
   },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
-  }
+  "sidebar": "tutorialSidebar"
 }

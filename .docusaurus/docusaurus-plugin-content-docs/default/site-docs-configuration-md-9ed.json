@@ -1,0 +1,25 @@
+{
+  "id": "configuration",
+  "title": "Configuration",
+  "description": "Configuration HTTP Server",
+  "source": "@site/docs/configuration.md",
+  "sourceDirName": ".",
+  "slug": "/configuration",
+  "permalink": "/docs/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Configuration",
+    "description": "Configuration HTTP Server",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Flags",
+    "permalink": "/docs/flags"
+  }
+}
